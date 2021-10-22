@@ -1,0 +1,74 @@
+@import "../../../App.css";
+.pill {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  margin: 0.5rem;
+  border-radius: 1rem;
+
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.pill:hover {
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: var(--THEME-LIGHT-BLUE);
+}
+
+.inputWrap {
+  height: 50px;
+  width: 100%;
+  max-width: 350px;
+  display: inline-flex;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+.input {
+  flex: 50;
+  border: none;
+  background: none;
+  transition: all 0.3s;
+  outline: none !important;
+  color: #aaaa;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.inpBtn {
+  flex: 50;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--THEME-DARK-BLUE);
+  color: var(--THEME-FG);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  outline: none !important;
+}
+
+.inpBtn:hover {
+  background-color: var(--THEME-LIGHT-BLUE);
+  transition: all 0.3s;
+}
+
+.inpIconWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.roundedBtn {
+  border-radius: 2rem;
+  margin-left: 1rem;
+  width: 30%;
+  min-width: 200px;
+}

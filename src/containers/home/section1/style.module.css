@@ -1,0 +1,21 @@
+@import "../../../App.css";
+.media {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+.section1 {
+  background: linear-gradient(to bottom, var(--THEME-LIGHT-BLUE), #fff 50%);
+  transform: translate(0, -10px);
+  min-height: 50vh;
+}
+
+.rounded {
+  border-radius: 1.5rem;
+}

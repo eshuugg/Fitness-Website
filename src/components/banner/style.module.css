@@ -1,0 +1,13 @@
+@import "../../App.css";
+
+/* banner  */
+.banner {
+  min-height: 80vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+.bannerWrap {
+  padding: 1rem;
+}

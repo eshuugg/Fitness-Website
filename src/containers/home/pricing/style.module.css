@@ -1,0 +1,57 @@
+.pass1 {
+  background: linear-gradient(to right, rgb(66, 163, 243), rgb(0, 109, 235));
+  margin: 0.5rem 0;
+  color: #fff;
+}
+.lines {
+  width: 80%;
+  max-width: 150px;
+  height: 1px;
+  border-radius: 1rem;
+  background: #fff;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list ul {
+  list-style-type: none;
+}
+
+.list ul li {
+  line-height: 2.5rem;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pricingCard {
+  display: flex;
+  min-width: 350px;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #444;
+  margin: 0.5rem 0;
+}
+
+.flex1 {
+  flex: 80;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex2 {
+  flex: 20;
+  display: flex;
+  align-items: center;
+}
+
+.flex2 button {
+  border-radius: 1rem;
+  height: 30px;
+}

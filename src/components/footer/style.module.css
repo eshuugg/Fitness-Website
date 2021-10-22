@@ -1,0 +1,99 @@
+@import "../../App.css";
+
+.footer {
+  background: var(--THEME-LIGHT-BLUE);
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
+
+.subFooter {
+  background: var(--THEME-DARK-BLUE);
+}
+.list {
+  padding-left: 0;
+  padding-top: 1rem;
+  list-style-type: none;
+}
+.list li {
+  margin-bottom: 1rem;
+}
+.list li a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.mediaLinks a {
+  text-decoration: none;
+  color: #fff;
+}
+.mediaLinks {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0.3rem;
+  border-radius: 50%;
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background: var(--THEME-FG);
+  border-radius: 50%;
+  color: var(--THEME-LIGHT-BLUE);
+}
+
+.inputWrap {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+.input {
+  flex: 60;
+  border: none;
+  background: none;
+  transition: all 0.3s;
+  outline: none !important;
+  color: #aaaa;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.inpBtn {
+  flex: 40;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--THEME-DARK-BLUE);
+  color: var(--THEME-FG);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  outline: none !important;
+}
+
+.inpBtn:hover {
+  background-color: var(--THEME-LIGHT-BLUE);
+  transition: all 0.3s;
+}
+
+.inpIconWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}

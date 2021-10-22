@@ -1,0 +1,48 @@
+@import "../../App.css";
+
+.bmiCalculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, rgb(5, 115, 218), rgb(7, 157, 202));
+}
+
+.calculator {
+  width: 100%;
+  max-width: 300px;
+  border-top-left-radius: 2.5em;
+  border-bottom-right-radius: 2.5em;
+  height: 430px;
+  overflow-y: scroll;
+  background: linear-gradient(145deg, rgb(5, 115, 218), cyan);
+  color: #fff;
+}
+.calculator::-webkit-scrollbar {
+  width: 0;
+}
+
+.calcBtn {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border-radius: 50%;
+  color: #444;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: top;
+  padding: 0.1rem;
+  transition: all 0.5s;
+  flex: 22.222%;
+}

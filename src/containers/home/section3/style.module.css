@@ -1,0 +1,17 @@
+.sec3 {
+  background: url("../../../assets/shapes/Animated1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 800;
+  font-size: 2.5em;
+  color: #00aeed;
+}

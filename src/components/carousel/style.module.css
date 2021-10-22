@@ -1,0 +1,9 @@
+@import "../../App.css";
+
+.carousel {
+  min-height: 60vh;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.para{
+    color: #9e9fa1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0px
+}
+.mytitle{
+    color:rgb(40, 167, 233);
+    font-size: 43px;
+    font-weight:bold  
+}
+@media (max-width: 768px) {
+    .mytitle {
+        font-size: 36px;
+    }
+  }
+.text{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
